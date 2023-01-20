@@ -1,0 +1,65 @@
+.card-body{ 
+  border: none;
+  border-radius: 20px;
+ padding: 40px;
+ background-color: rgb(250, 250, 232) !important;
+ box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.1);
+ transition: all 0.2s;
+}
+
+.btn:hover  {
+  color: rgb(8, 8, 8);
+}
+.App{
+  padding:65px;
+  display:flex;
+  justify-content: space-evenly;
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+.month{
+  font-size: 10px;
+}
+.card ul li{
+margin-bottom: 1rem;
+}
+.head{
+  pointer-events: none;
+  text-align: center;
+}
+ul{
+  pointer-events: none;
+}
+li{
+  list-style-type: none;
+}
+.amount{
+  font-size: 30px;
+  pointer-events: none;
+}
+.card .btn{
+  font-size: 80%;
+  background-color: blue;
+  letter-spacing: .1rem;
+  opacity: 0.7;
+  font-weight: bold;
+  color: rgb(243, 243, 235);
+ text-align: center;
+  border-radius: 5rem;
+  height: 25px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.card hr{
+  margin : 1.5rem 0;
+}
+@media (min-width:992px){
+  .pricing  :hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.3);
+  }
+  .pricing :hover .btn {
+    opacity:1;
+  }
+}
